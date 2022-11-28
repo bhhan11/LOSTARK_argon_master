@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Argon</title>
+        <link rel = "stylesheet" href= "./style.css">
+
+    </head>
+    
+    <body>
+        <div style="width: 60%;float: left;">
+            <div class ='background'></div>
+            <h1 class = "title">Argon Master</h1>
+
+            
+            <hr>
+            <div>
+            <h2 style="color : rgb(199, 5, 5); font-size: 20;">* 주의 사항</h2>
+            <output class ='precautions'>카드, 장신구, 방어구 모두를 장착 해제 후 진행해주세요</output>  
+            </div>
+
+
+            <hr>
+            <div>   
+                <output class ='classname'>Warriors</output>
+                <button class="btn" id = 'shu1'>디스트로이어</button>
+                <button class="btn" id = 'shu2'>워로드</button>
+                <button class="btn" id = 'shu3'>버서커</button>
+                <button class="btn" id = 'shu4'>홀리나이트</button>
+            </div>
+            <div>
+                <output class ='classname'>Wizard</output>
+                <button class="btn" id = 'sil1'>소서리스</button>
+                <button class="btn" id = 'sil2'>아르카나</button>
+                <button class="btn" id = 'sil3'>바드</button>
+                <button class="btn" id = 'sil4'>서머너</button>
+            </div>
+            <div>
+                <output class ='classname'>Assassin</output>
+                <button class="btn" id = 'arm1'>리퍼</button>
+                <button class="btn" id = 'arm2'>블레이드</button>
+                <button class="btn" id = 'arm3'>데모닉</button>
+            </div>
+            <div>
+                <output class ='classname'>Fighter</output>
+                <button class="btn" id = 'mu1'>스트라이커</button>
+                <button class="btn" id = 'mu2'>인파이터</button>
+                <button class="btn" id = 'mu3'>창술사</button>
+                <button class="btn" id = 'mu4'>배틀마스터</button>
+                <button class="btn" id = 'mu5'>기공사</button>
+            </div>
+            <div>
+                <output class ='classname'>Hunter</output>
+                <button class="btn" id = 'hun1'>데빌헌터</button>
+                <button class="btn" id = 'hun2'>건슬링어</button>
+                <button class="btn" id = 'hun3'>블래스터</button>
+                <button class="btn" id = 'hun4'>스카우터</button>
+                <button class="btn" id = 'hun5'>호크아이</button>
+            </div>
+            <div>
+                <output class ='classname'>SpecialList</output>
+                <button class="btn" id = 'sp1'>도화가</button>
+                <button class="btn" id = 'sp2'>기상술사</button>
+            </div>
+
+
+            <hr>
+            
+            <div>
+                <input readonly id = 'showClassName' class = 'pickname'>
+                <output style="font-family: '맑은고딕';font-size: 16px;">무기 아이템 레벨을 입력하세요</output>
+                <hr>
+                <input id ='levelNumber' class = 'levelwrite'>
+                <button class="btn2" id = 'startCalculate'>확인</button>
+            </div>
+
+
+            <hr>
+            <output style="font-weight: bold;color: rgb(199, 5, 5);">* 번호 순서대로 진행해주세요!</output>
+            
+            <div>
+                <output>1.&nbsp;[2 pixel] 부터 [0 pixel] 이 될때까지  1체인 무기 평타 횟수</output>
+                <input readonly id = 'weaponNum' class ='showResult'>
+            </div>
+            <div>
+                <output>2.&nbsp;1체인 주먹 평타 횟수</output>
+                <input readonly id = 'basicNum' class ='showResult'>
+            </div>
+            <div>
+                <output>3.&nbsp;후라이펜 평타 횟수</output>
+                <input readonly id = 'panNum' class ='showResult'>
+            </div>
+            <div>
+                <output>조각 완성 예상 시간 (2번 완료 후부터)</output>
+                <input readonly id = 'expectTime' class ='showResult'>
+            </div>
+
+
+            <hr>
+            <button id="resetBtn">Reset</button>
+        </div> 
+        
+        <div style="width:35%;float: right;">
+            <div>
+                <output class="pxfont">2 pixel</output>
+            </div>
+            <div>
+                <img src="2px.png">
+            </div>
+            <hr>
+            <div>
+                <output class="pxfont">1 pixel</output>
+            </div>
+
+            <div>
+                <img src="1px.png" alt="1 픽셀">
+            </div>
+            <hr>
+            <div>
+                <output class="pxfont">0 pixel</output>
+            </div>
+
+            <div>
+                <img src="0px.png" alt="0 픽셀">
+            </div>
+
+        </div>
+       
+
+
+        
+
+
+        <script type="module" src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    /*margin:0 auto;*/
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    
+    background-color: #ffffff;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px; 
+    color:rgb(14, 83, 120);
+    font-weight: bold;
+    margin: 10px 0px 5px;
+    border-bottom-color: rgb(211,211,211);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 35px;
+    background-color: rgb(250 250 250);
+    background-image: url(./argon2.png);
+}
+
+.precaution{
+    font-family: '맑은 고딕','Noto Sans Korean';
+    font-weight: bold;
+
+}
+
+.classname{
+    font-size: 20px; color:rgb(30, 15, 15);
+    
+    font-weight: bold;
+    margin: 10px 0px 10px;
+    border-left-width: 5px;
+    
+    border-left-color: rgb(0, 0, 0);
+    border-right-width: 5px;
+    
+    border-right-color: rgb(0, 0, 0);
+
+
+    line-height: 40px;
+    background-color: rgb(250 250 250);
+
+}
+
+.btn2{
+    font-size: 16px;
+    font-family: '맑은고딕';
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 12px;
+    padding: 4px 4px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(225, 239, 255);
+    cursor:pointer;
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+}
+
+.levelwrite{
+    font-size: 20px;
+    font-family: '맑은고딕';
+    background-color: rgb(255, 255, 255);
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.pickname{
+    width: 135px;
+    height: 30px;
+    font-family: '맑은고딕';
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(225, 239, 255);
+    padding: 4px 4px;  
+}
+
+.showResult{
+    width: 60px;
+    font-family: '맑은고딕';
+    font-weight: bold;
+    font-size: 14;
+}
+
+.pxfont {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Myriad Set Pro';
+    
+}
